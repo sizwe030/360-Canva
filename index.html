@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360° Business Canvas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>360° Business Canvas</h1>
+            <p>Plan, Assess, and Execute Your Business Strategy with Ease.</p>
+            
+            <button class="google-btn">
+                <img src="assets/unnamed.png" alt="Google">
+                Continue with Google
+            </button>
+            
+            <button class="linkedin-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn">
+                Continue with LinkedIn
+            </button>
+            
+            <div class="divider">
+                <hr><span>or</span><hr>
+            </div>
+            
+            <button class="email-btn">Sign In With Email</button>
+            
+            <p class="signup-text">Don’t have an account? <span>Get Started</span></p>
+        <div id="email-signin-modal" style="display:none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Sign In with Email</h2>
+                <form id="email-signin-form">
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Sign In</button>
+
+                    <script src="index.js"></script>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
